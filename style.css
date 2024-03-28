@@ -1,0 +1,73 @@
+*{
+  margin: 0 auto;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(13, 15, 26);
+  color: white;
+  padding-top: 2rem;
+  text-align: center;
+  align-items: baseline;
+  padding-bottom: .5rem;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  display: flex;
+  gap: 20px;
+}
+
+#navSearchBar{
+  width: 80%;
+}
+
+.searchBarDiv{
+  width: 60%
+}
+.shoppingList{
+  color: white;
+  background-color: rgb(40, 46, 78)
+}
+
+#dealimg{
+  height: 25rem
+}
+
+#dealImgContainer{
+  width: 30%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+#saleDisplayContainer{
+  display: flex;
+}
+#saleProduct1{
+  height: 20rem;
+}
+
+#saleProduct2{
+  height: 20rem;
+}
+
+#saleProduct1Container{
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px 1px black;
+  background-color: rgb(255, 255, 255);
+  width: 30%
+}
+
+#saleProduct2Container{
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px 1px black;
+  background-color: rgb(255, 255, 255);
+  width: 30%
+}
